@@ -1,0 +1,254 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background-color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.hero h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* Layanan */
+.services {
+  padding: 40px 0;
+  text-align: center;
+}
+.services h4 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #0077b6;
+}
+.services p {
+  margin-bottom: 30px;
+  color: #555;
+  font-size: 1.1em;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.service-item {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+.note {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff3cd;
+  color: #856404;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid #ffeaa7;
+}
+
+/* Tentang Kami */
+.about {
+  padding: 40px 0;
+  background-color: #f1f8e9;
+}
+.about h4 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Fitur */
+.features {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+.features h4 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: #0077b6;
+}
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.feature-item {
+  flex: 1 1 300px;
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.feature-item h5 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+/* Profil Pengacara */
+.lawyers {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+.lawyers h4 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: #0077b6;
+}
+.lawyer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+.lawyer-item {
+  flex: 1 1 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.lawyer-item h5 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+/* Testimonial */
+.testimonials {
+  padding: 50px 0;
+  background-color: #e3f2fd;
+}
+.testimonials h4 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #0077b6;
+}
+.testimonials p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.testimonial-item {
+  flex: 1 1 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.testimonial-item h5 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+/* Kontak */
+.contact {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.contact h4 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #0077b6;
+}
+.contact p {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  color: #555;
+}
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+.whatsapp-btn:hover {
+  background-color: #128C7E;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .hero h2 { font-size: 2em; }
+  .hero h3 { font-size: 1.3em; }
+  .service-item { font-size: 0.9em; padding: 10px 16px; }
+  .feature-item, .lawyer-item, .testimonial-item, .contact {
+    padding: 18px;
+  }
+  .whatsapp-btn {
+    font-size: 1em;
+    padding: 12px 24px;
+  }
+}
